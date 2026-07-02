@@ -51,6 +51,24 @@ function SplitText({
           display: "block",
         });
 
+        const el = textRef.current;
+
+        const style = getComputedStyle(el);
+        const hasBgClipText = style.backgroundClip === 'text' || (style as unknown as {
+        WebkitBackgroundClip ?: string }).WebkitBackgroundClip === 'text';
+
+        if (hasBgClipText && style.backgroundImage && style.backgroundImage !== 'none') {
+          split.chars?.forEach((char) => {
+
+            gsap.set(char, {
+              backgroundImage: style.backgroundImage,
+              backgroundClip: 'text',
+              WebkitBackgroundClip: 'text',
+              color: 'transparent',
+            });
+        });
+      }
+
         gsap.set(split.chars, {
           y: "110%",
           opacity: 0,

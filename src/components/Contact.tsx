@@ -63,7 +63,7 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className="py-32 relative overflow-hidden bg-black/50">
+    <section id="contact" className="py-32 relative overflow-hidden bg-black/50" style={{ scrollMarginTop: '80px' }}>
       {/* Background elements */}
       <div className="absolute inset-0 bg-noise opacity-50 mix-blend-overlay pointer-events-none" />
       <div className="absolute top-0 right-0 w-full h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />

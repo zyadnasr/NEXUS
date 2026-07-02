@@ -89,6 +89,7 @@ export default function Process() {
     <section
       className="py-32 relative bg-background overflow-hidden"
       ref={containerRef}
+      id="portfolio"
     >
       <div className="absolute left-0 top-1/4 w-[300px] h-[600px] bg-primary/10 blur-[90px] pointer-events-none rounded-r-full" />
       <div className="absolute right-0 bottom-1/4 w-[400px] h-[400px] bg-accent/10 blur-[100px] pointer-events-none rounded-l-full" />

@@ -19,7 +19,7 @@ const clients = [
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex flex-col pt-32 pb-20 overflow-hidden">
+    <section className="relative min-h-screen flex flex-col pt-32 pb-20 overflow-hidden" id="hero">
       {/* Dynamic Background */}
       <FluidBackground />
 

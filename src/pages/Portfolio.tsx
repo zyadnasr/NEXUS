@@ -7,7 +7,7 @@ import SplitText from "../components/SplitText";
 
 export default function Portfolio() {
   return (
-    <main className="pt-32 pb-24 min-h-screen relative overflow-hidden bg-white/[0.02]">
+    <main className="pt-32 pb-24 min-h-screen relative overflow-hidden bg-white/[0.02]" style={{ scrollMarginTop: '80px' }}>
       <div className="absolute inset-0 bg-noise opacity-50 mix-blend-overlay pointer-events-none" />
       <div className="absolute top-0 left-1/4 w-[600px] h-[600px] bg-primary/10 blur-[90px] pointer-events-none rounded-full" />
 
