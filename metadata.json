@@ -1,0 +1,8 @@
+{
+  "name": "Nexus Creative Agency",
+  "description": "A premium, modern, responsive marketing agency portfolio website with dark theme and glassmorphism.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
